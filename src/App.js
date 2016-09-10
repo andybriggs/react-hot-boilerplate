@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
-require('./styles/styles.css');
+import './style';
 
 export default class App extends Component {
   render() {
     return (
-      <h1>New App.</h1>
+      <div>
+        <link rel="stylesheet" type="text/css" href="/static/style.css" />
+        <h1>New App.</h1>
+      </div>
     );
   }
 }
