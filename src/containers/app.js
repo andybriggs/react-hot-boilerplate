@@ -6,7 +6,6 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <link rel="stylesheet" type="text/css" href="/static/style.css" />
         <h1>Show time</h1>
         <div>
           <Link to="/home">Home</Link>&nbsp;

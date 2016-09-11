@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Router, IndexRoute, hashHistory } from 'react-router';
 import App from './containers/app.js';
-import { Home, Funsies } from './pages';
+import { Home, Funsies } from './components';
 
 const Routes = () => {
   return (
