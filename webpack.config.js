@@ -13,7 +13,7 @@ module.exports = {
   output: {
     path: path.join(__dirname, 'dist'),
     filename: 'bundle.js',
-    publicPath: '/static/'
+    publicPath: '/'
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
@@ -28,8 +28,8 @@ module.exports = {
     { test: /\.scss$/,
       loader: ExtractTextPlugin.extract("css?sourceMap!sass?sourceMap!postcss")
     },
-    { test: /\.jpg$/,
-      loader: 'url-loader'
+    { test: /\.(jpg|jpeg|gif|png)$/,
+      loader: 'url-loader?limit=2000'
     }]
   },
   postcss: function () {

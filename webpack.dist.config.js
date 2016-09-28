@@ -1,6 +1,6 @@
 var path = require('path');
 var webpack = require('webpack');
-var ExtractTextPlugin = require("extract-text-webpack-plugin");
+var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
   entry: path.join(__dirname, 'src'),
@@ -9,7 +9,11 @@ module.exports = {
     filename: 'bundle.js'
   },
   plugins: [
-    new ExtractTextPlugin("style.css", { allChunks: true })
+    new ExtractTextPlugin("style.css", { allChunks: true }),
+    new webpack.optimize.UglifyJsPlugin({
+      sourceMap: false,
+      mangle: false
+    })
   ],
   module: {
     loaders: [{
@@ -20,8 +24,8 @@ module.exports = {
     { test: /\.scss$/,
       loader: ExtractTextPlugin.extract("css!sass")
     },
-    { test: /\.jpg$/,
-      loader: 'url-loader'
+    { test: /\.(jpg|jpeg|gif|png)$/,
+      loader: 'url-loader?limit=2000&name=img/[name].[ext]'
     }]
   }
 };
