@@ -1,9 +1,11 @@
-$pink: hotpink;
+$yellow: #FDD700;
 
 body {
   text-align: center;
-  background: $pink;
+  background: $yellow;
   img {
-    border-radius: 50%;
+    margin: 20px;
+    width: 800px;
+    max-width: 90%;
   }
 }

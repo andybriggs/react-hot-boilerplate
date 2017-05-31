@@ -1,2 +1,2 @@
 export Home from './home.js';
-export Funsies from './funsies.js';
+export Covfefe from './covfefe.js';

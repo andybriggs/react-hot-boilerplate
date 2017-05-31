@@ -9,7 +9,7 @@ export default class App extends Component {
         <h1>Show time</h1>
         <div>
           <Link to="/home">Home</Link>&nbsp;
-          <Link to="/funsies">Funsies</Link>
+          <Link to="/covfefe">Covfefe</Link>
         </div>
         { this.props.children }
       </div>
