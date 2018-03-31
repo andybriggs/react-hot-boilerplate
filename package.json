@@ -29,32 +29,31 @@
   },
   "homepage": "https://github.com/gaearon/react-hot-boilerplate",
   "devDependencies": {
-    "autoprefixer": "^6.4.1",
-    "babel-core": "^6.0.20",
+    "autoprefixer": "^6.7.7",
+    "babel-core": "^6.26.0",
     "babel-eslint": "^4.1.3",
-    "babel-loader": "^6.0.1",
-    "babel-preset-es2015": "^6.0.15",
-    "babel-preset-react": "^6.0.15",
-    "babel-preset-stage-0": "^6.0.15",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
     "css-loader": "^0.25.0",
     "eslint": "^1.10.3",
     "eslint-plugin-react": "^3.6.2",
     "file-loader": "^0.9.0",
-    "node-sass": "^3.9.3",
+    "node-sass": "^4.8.3",
     "postcss-loader": "^0.13.0",
     "react-hot-loader": "^1.3.1",
-    "react-router-dom": "^4.1.1",
+    "react-router-dom": "^4.2.2",
     "sass-loader": "^4.0.2",
-    "style-loader": "^0.13.1",
-    "url-loader": "^0.5.7",
-    "webpack": "^1.12.2",
-    "webpack-dev-server": "^1.12.1"
+    "style-loader": "^0.13.2",
+    "url-loader": "^0.5.9",
+    "webpack": "^1.15.0",
+    "webpack-dev-server": "^1.16.5"
   },
   "dependencies": {
     "extract-text-webpack-plugin": "^1.0.1",
-    "prop-types": "^15.5.10",
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4",
-    "react-router-dom": "^4.1.1"
+    "prop-types": "^15.6.1",
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2"
   }
 }
